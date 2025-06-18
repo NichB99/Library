@@ -1,3 +1,10 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Maven ###
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -6,12 +13,28 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+### Maven Wrapper ###
+.mvn/
+!/.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+### Eclipse / STS ###
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+.loadpath
+
+### Logs and temp files ###
+*.log
+*.tmp
+*.bak
+*.swp
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+.factorypath
